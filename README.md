@@ -69,6 +69,6 @@ Live Link: avaneshportfolio.netlify.app/
 Contact
 Feel free to connect with me!
 
-GitHub: [\[Your GitHub Profile URL\]](https://github.com/AvaneshJ)
+GitHub: https://github.com/AvaneshJ
 
 Email: avaneshj2408@gmail.com
