@@ -8,7 +8,7 @@ import wellbeing from "./wellbeing.png";
 import engram from "./engram.jpg";
 import favicon from "./favicon.ico";
 import legal from "./legal.png";
-
+import saferoute from "./saferoute.jpg";
 export {
   hero,
   logo,
@@ -20,4 +20,5 @@ export {
   engram,
   favicon,
   legal,
+  saferoute,
 };

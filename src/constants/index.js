@@ -7,6 +7,7 @@ import {
   favicon,
   wellbeing,
   legal,
+  saferoute,
 } from "../assets/images";
 import {
   contact,
@@ -206,5 +207,13 @@ export const projects = [
     description:
       "My personal portfolio website showcasing my technical projects and professional experience, featuring interactive project demos and streamlined contact integration.",
     link: "https://avaneshportfolio.netlify.app/",
+  },
+  {
+    iconUrl: saferoute,
+    theme: "btn-back-black",
+    name: "SafeRoute",
+    description:
+      "SafeRoute is designed to provide a safe and secure commuting experience for women by utilizing crowd-sourced data, real-time alerts, and emergency response features. This application enables users to find safe routes based on community reviews and access immediate assistance in distressing situations.",
+    link: "https://github.com/AvaneshJ/SafeRoute/tree/master",
   },
 ];
