@@ -14,7 +14,7 @@ const Home = () => {
   audioRef.current.loop = true;
   const [isRotating, setisRotating] = useState(false);
   const [currentStage, setCurrentStage] = useState(1);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
   useEffect(() => {
     if (isPlaying) {
       audioRef.current.play();

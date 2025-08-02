@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FaDownload } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
       >
         <p className="blue-gradient_text">AJ</p>
       </NavLink>
-      <nav className="flex text-lg gap-7 font-medium">
+      <nav className="flex flex-wrap text-lg gap-4 sm:gap-7 font-medium">
         <NavLink
           to="/about"
           className={({ isActive }) =>
@@ -35,6 +36,20 @@ const Navbar = () => {
         >
           Contact
         </NavLink>
+        <div>
+          <a
+            href="/Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={
+              (({ isActive }) => (isActive ? "text-blue-500" : "text-black"),
+              "flex items-center")
+            }
+          >
+            Resume
+            <FaDownload size={14} />
+          </a>
+        </div>
       </nav>
     </header>
   );
