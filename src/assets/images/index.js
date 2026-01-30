@@ -9,6 +9,7 @@ import engram from "./engram.jpg";
 import favicon from "./favicon.ico";
 import legal from "./legal.png";
 import saferoute from "./saferoute.jpg";
+import stokpot from "./stokpot.png";
 export {
   hero,
   logo,
@@ -21,4 +22,5 @@ export {
   favicon,
   legal,
   saferoute,
+  stokpot,
 };

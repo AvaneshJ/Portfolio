@@ -28,6 +28,7 @@ import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import cpp from "./cpp.svg";
 import python from "./python.svg";
+import inngest from "./inngest.svg";
 
 export {
   css,
@@ -60,4 +61,5 @@ export {
   soundoff,
   cpp,
   python,
+  inngest,
 };

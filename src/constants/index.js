@@ -8,6 +8,7 @@ import {
   wellbeing,
   legal,
   saferoute,
+  stokpot,
 } from "../assets/images";
 import {
   contact,
@@ -27,6 +28,7 @@ import {
   tailwindcss,
   typescript,
   cpp,
+  inngest,
 } from "../assets/icons";
 
 export const skills = [
@@ -98,12 +100,17 @@ export const skills = [
   {
     imageUrl: python,
     name: "Python",
-    type: "",
+    type: "AI/ML",
   },
   {
     imageUrl: cpp,
     name: "C++",
     type: "DSA",
+  },
+  {
+    imageUrl: inngest,
+    name: "Inngest",
+    type: "Backend",
   },
 ];
 
@@ -145,6 +152,18 @@ export const experiences = [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
+    title: "IBM Gen AI Developer",
+    company_name: "IBM India Pvt Ltd",
+    icon: stokpot,
+    iconBg: "#b7e4c7",
+    date: "May 2025 - July 2025",
+    points: [
+      " Engineered and deployed scalable AI-driven applications using LLMs, resulting in a 15% increase in user engagement through personalized content delivery",
+      " Optimized backend workflows by implementing asynchronous processing, reducing API response latency by 20%.",
+      "Standardized code quality by conducting peer reviews and modular architecture, improving maintainability by 30%",
     ],
   },
 ];
@@ -215,5 +234,12 @@ export const projects = [
     description:
       "SafeRoute is designed to provide a safe and secure commuting experience for women by utilizing crowd-sourced data, real-time alerts, and emergency response features. This application enables users to find safe routes based on community reviews and access immediate assistance in distressing situations.",
     link: "https://github.com/AvaneshJ/SafeRoute/tree/master",
+  },
+  {
+    iconUrl: stokpot,
+    theme: "btn-back-black",
+    name: "StokPot",
+    description: ` Engineered a full-stack stock analysis platform integrated with TradingView for real-time market data visualization. Orchestrated automated background jobs using Inngest and Nodemailer to deliver AI-generated market summaries and personalized onboarding sequences. Boosted performance by 40% through Server-Side Rendering (SSR) implementation, significantly reducing Initial Page Load times.`,
+    link: "https://stokpot.vercel.app/sign-in",
   },
 ];
